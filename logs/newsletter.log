@@ -1,0 +1,209 @@
+2025-04-24 10:19:55,593 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:19:55,593 - __main__ - INFO - Time: 2025-04-24 10:19:55
+2025-04-24 10:19:55,594 - __main__ - INFO - Testing configuration...
+2025-04-24 10:19:55,594 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:19:55,594 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:19:55,594 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:19:55,594 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:19:55,890 - src.main - ERROR - Error fetching news for cybersecurity: 'choices'
+2025-04-24 10:19:55,916 - src.main - ERROR - Error fetching news for digital transformation: 'choices'
+2025-04-24 10:19:55,920 - src.main - ERROR - Error fetching news for cloud computing: 'choices'
+2025-04-24 10:19:56,048 - src.main - ERROR - Error fetching news for data analytics: 'choices'
+2025-04-24 10:19:56,125 - src.main - ERROR - Error fetching news for enterprise AI: 'choices'
+2025-04-24 10:19:56,125 - src.main - WARNING - No relevant news found
+2025-04-24 10:19:56,125 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:21:21,460 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:21:21,460 - __main__ - INFO - Time: 2025-04-24 10:21:21
+2025-04-24 10:21:21,460 - __main__ - INFO - Testing configuration...
+2025-04-24 10:21:21,460 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:21:21,460 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:21:21,460 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:21:21,460 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:21:21,460 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:21:21,477 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:21:21,477 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:21:21,477 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:21:21,477 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:21:21,731 - src.main - ERROR - API error for cloud computing. Status: 400, Response: {"error":{"message":"Invalid model 'llama-3.1'. Permitted models can be found in the documentation at https://docs.perplexity.ai/guides/model-cards.","type":"invalid_model","code":400}}
+2025-04-24 10:21:21,732 - src.main - ERROR - API error for enterprise AI. Status: 400, Response: {"error":{"message":"Invalid model 'llama-3.1'. Permitted models can be found in the documentation at https://docs.perplexity.ai/guides/model-cards.","type":"invalid_model","code":400}}
+2025-04-24 10:21:21,733 - src.main - ERROR - API error for cybersecurity. Status: 400, Response: {"error":{"message":"Invalid model 'llama-3.1'. Permitted models can be found in the documentation at https://docs.perplexity.ai/guides/model-cards.","type":"invalid_model","code":400}}
+2025-04-24 10:21:21,742 - src.main - ERROR - API error for digital transformation. Status: 400, Response: {"error":{"message":"Invalid model 'llama-3.1'. Permitted models can be found in the documentation at https://docs.perplexity.ai/guides/model-cards.","type":"invalid_model","code":400}}
+2025-04-24 10:21:21,748 - src.main - ERROR - API error for data analytics. Status: 400, Response: {"error":{"message":"Invalid model 'llama-3.1'. Permitted models can be found in the documentation at https://docs.perplexity.ai/guides/model-cards.","type":"invalid_model","code":400}}
+2025-04-24 10:21:21,750 - src.main - WARNING - No relevant news found
+2025-04-24 10:21:21,750 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:22:03,883 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:22:03,884 - __main__ - INFO - Time: 2025-04-24 10:22:03
+2025-04-24 10:22:03,884 - __main__ - INFO - Testing configuration...
+2025-04-24 10:22:03,884 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:22:03,884 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:22:03,884 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:22:03,884 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:22:03,884 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:22:03,897 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:22:03,897 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:22:03,897 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:22:03,897 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:22:14,877 - src.main - WARNING - No news items found for digital transformation
+2025-04-24 10:22:15,290 - src.main - WARNING - No news items found for data analytics
+2025-04-24 10:22:16,428 - src.main - WARNING - No news items found for enterprise AI
+2025-04-24 10:22:17,232 - src.main - INFO - Found 10 news items for cloud computing
+2025-04-24 10:22:25,559 - src.main - WARNING - No news items found for cybersecurity
+2025-04-24 10:22:27,825 - src.main - INFO - Newsletter sent successfully
+2025-04-24 10:22:27,825 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:26:55,936 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:26:55,936 - __main__ - INFO - Time: 2025-04-24 10:26:55
+2025-04-24 10:26:55,936 - __main__ - INFO - Testing configuration...
+2025-04-24 10:26:55,936 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:26:55,936 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:26:55,937 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:26:55,937 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:26:55,937 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:26:55,952 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:26:55,952 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:26:55,952 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:26:55,953 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:27:04,750 - src.main - WARNING - No news items found for enterprise AI
+2025-04-24 10:27:05,202 - src.main - WARNING - No news items found for cloud computing
+2025-04-24 10:27:06,056 - src.main - ERROR - Error parsing line for cybersecurity: 1. **How the GCC is Strengthening its Cyber Resilience in the Digital Age** | [https://www.weforum.org/stories/2025/04/how-the-gcc-is-strengthening-its-cyber-resilience-in-the-digital-age/](https://www.weforum.org/stories/2025/04/how-the-gcc-is-strengthening-its-cyber-resilience-in-the-digital-age/) | GCC nations are enhancing cybersecurity through investments, workforce upskilling, infrastructure improvements, and global collaboration by 2030. This is highly relevant as it highlights strategic approaches to cybersecurity in a rapidly digitizing environment. | **Score: 0.9**. Error: could not convert string to float: '**Score: 0.9**'
+2025-04-24 10:27:06,057 - src.main - ERROR - Error parsing line for cybersecurity: 2. **Reflections on the 2025 Public Sector Summit: Zero Trust, AI, and the Future of Government** | [https://www.zscaler.com/blogs/product-insights/reflections-2025-public-sector-summit-zero-trust-ai-and-future-government](https://www.zscaler.com/blogs/product-insights/reflections-2025-public-sector-summit-zero-trust-ai-and-future-government) | The summit emphasized Zero Trust architectures and AI as critical components in cybersecurity transformation, particularly in detecting and responding to threats. This is highly relevant for digital transformation as it discusses cutting-edge strategies for securing modern digital environments. | **Score: 0.9**. Error: could not convert string to float: '**Score: 0.9**'
+2025-04-24 10:27:06,057 - src.main - ERROR - Error parsing line for cybersecurity: 3. **Industrial Cybersecurity Market Analysis and Forecast, 2025-2035** | [https://www.globenewswire.com/news-release/2025/04/22/3065699/0/en/Industrial-Cybersecurity-Market-Analysis-and-Forecast-2025-2035-Regulatory-Mandates-Spur-Advances-in-Cybersecurity-Technologies.html](https://www.globenewswire.com/news-release/2025/04/22/3065699/0/en/Industrial-Cybersecurity-Market-Analysis-and-Forecast-2025-2035-Regulatory-Mandates-Spur-Advances-in-Cybersecurity-Technologies.html) | The industrial cybersecurity market is advancing rapidly due to digital transformation in sectors like manufacturing and energy. This is highly relevant as it highlights the growing importance of securing operational technology (OT) and IT systems in industrial settings. | **Score: 0.8**. Error: could not convert string to float: '**Score: 0.8**'
+2025-04-24 10:27:06,057 - src.main - ERROR - Error parsing line for cybersecurity: 4. **Understanding the Cyber Security and Resilience Bill (2025)** | [https://greymatter.com/content-hub/understanding-the-cyber-security-and-resilience-bill-2025/](https://greymatter.com/content-hub/understanding-the-cyber-security-and-resilience-bill-2025/) | The UK's Cyber Security and Resilience Bill aims to enhance cyber defenses, protect public services, and modernize regulatory frameworks. This is highly relevant as it outlines new legal and security standards that businesses must comply with to ensure resilience against cyber threats. | **Score: 0.9**. Error: could not convert string to float: '**Score: 0.9**'
+2025-04-24 10:27:06,057 - src.main - ERROR - Error parsing line for cybersecurity: 5. **M-Trends 2025: Data, Insights, and Recommendations From the Front Lines of Cybersecurity** | [https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2025](https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2025) | M-Trends 2025 provides insights into emerging threats and recommends strategies for enhancing cybersecurity postures, including layered security approaches and robust incident response plans. This is highly relevant as it offers actionable advice for improving cybersecurity in a rapidly evolving threat landscape. | **Score: 0.8**. Error: could not convert string to float: '**Score: 0.8**'
+2025-04-24 10:27:06,058 - src.main - WARNING - No news items found for cybersecurity
+2025-04-24 10:27:06,803 - src.main - WARNING - No news items found for digital transformation
+2025-04-24 10:27:08,025 - src.main - WARNING - No news items found for data analytics
+2025-04-24 10:27:08,027 - src.main - WARNING - No relevant news found
+2025-04-24 10:27:08,027 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:27:56,560 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:27:56,561 - __main__ - INFO - Time: 2025-04-24 10:27:56
+2025-04-24 10:27:56,561 - __main__ - INFO - Testing configuration...
+2025-04-24 10:27:56,561 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:27:56,561 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:27:56,561 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:27:56,561 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:27:56,561 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:27:56,574 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:27:56,574 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:27:56,574 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:27:56,574 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:28:03,136 - src.main - INFO - Found 5 news items for cloud computing
+2025-04-24 10:28:03,571 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:28:04,968 - src.main - INFO - Found 7 news items for cybersecurity
+2025-04-24 10:28:07,817 - src.main - INFO - Found 7 news items for data analytics
+2025-04-24 10:28:08,988 - src.main - INFO - Found 8 news items for digital transformation
+2025-04-24 10:28:08,990 - src.main - ERROR - Error sending newsletter: '\n                    font-family'
+2025-04-24 10:28:08,991 - src.main - ERROR - Error in main execution: '\n                    font-family'
+2025-04-24 10:28:08,991 - __main__ - ERROR - Error during newsletter generation: '\n                    font-family'
+2025-04-24 10:28:08,991 - __main__ - ERROR - Please check the error message above and verify your configuration
+2025-04-24 10:28:42,162 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:28:42,162 - __main__ - INFO - Time: 2025-04-24 10:28:42
+2025-04-24 10:28:42,162 - __main__ - INFO - Testing configuration...
+2025-04-24 10:28:42,162 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:28:42,162 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:28:42,162 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:28:42,162 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:28:42,162 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:28:42,175 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:28:42,175 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:28:42,176 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:28:42,176 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:28:49,922 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:28:51,135 - src.main - INFO - Found 8 news items for digital transformation
+2025-04-24 10:28:51,960 - src.main - INFO - Found 5 news items for data analytics
+2025-04-24 10:28:53,238 - src.main - INFO - Found 10 news items for cloud computing
+2025-04-24 10:28:53,259 - src.main - INFO - Found 8 news items for cybersecurity
+2025-04-24 10:28:53,261 - src.main - ERROR - Error sending newsletter: ' font-family'
+2025-04-24 10:28:53,261 - src.main - ERROR - Error in main execution: ' font-family'
+2025-04-24 10:28:53,261 - __main__ - ERROR - Error during newsletter generation: ' font-family'
+2025-04-24 10:28:53,262 - __main__ - ERROR - Please check the error message above and verify your configuration
+2025-04-24 10:29:19,818 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:29:19,818 - __main__ - INFO - Time: 2025-04-24 10:29:19
+2025-04-24 10:29:19,819 - __main__ - INFO - Testing configuration...
+2025-04-24 10:29:19,819 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:29:19,819 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:29:19,819 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:29:19,819 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:29:19,819 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:29:19,831 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:29:19,832 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:29:19,832 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:29:19,832 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:29:26,056 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:29:27,532 - src.main - INFO - Found 6 news items for data analytics
+2025-04-24 10:29:27,611 - src.main - INFO - Found 7 news items for cloud computing
+2025-04-24 10:29:29,242 - src.main - INFO - Found 8 news items for digital transformation
+2025-04-24 10:31:24,091 - src.main - INFO - Found 8 news items for cybersecurity
+2025-04-24 10:31:26,028 - src.main - INFO - Newsletter sent successfully
+2025-04-24 10:31:26,029 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:35:15,666 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:35:15,667 - __main__ - INFO - Time: 2025-04-24 10:35:15
+2025-04-24 10:35:15,667 - __main__ - INFO - Testing configuration...
+2025-04-24 10:35:15,667 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:35:15,667 - __main__ - INFO - Topics to monitor: digital transformation, enterprise AI, cloud computing, cybersecurity, data analytics
+2025-04-24 10:35:15,667 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:35:15,667 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:35:15,667 - src.main - INFO - Fetching news for topic: digital transformation
+2025-04-24 10:35:15,680 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:35:15,680 - src.main - INFO - Fetching news for topic: cloud computing
+2025-04-24 10:35:15,680 - src.main - INFO - Fetching news for topic: cybersecurity
+2025-04-24 10:35:15,680 - src.main - INFO - Fetching news for topic: data analytics
+2025-04-24 10:35:22,867 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:35:22,950 - src.main - INFO - Found 6 news items for cloud computing
+2025-04-24 10:35:24,307 - src.main - INFO - Found 7 news items for data analytics
+2025-04-24 10:35:24,607 - src.main - INFO - Found 7 news items for digital transformation
+2025-04-24 10:35:27,784 - src.main - INFO - Found 7 news items for cybersecurity
+2025-04-24 10:35:27,786 - src.main - INFO - Sending newsletter with 10 most relevant news items
+2025-04-24 10:35:29,713 - src.main - INFO - Newsletter sent successfully
+2025-04-24 10:35:29,713 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:44:42,961 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:44:42,962 - __main__ - INFO - Time: 2025-04-24 10:44:42
+2025-04-24 10:44:42,962 - __main__ - INFO - Testing configuration...
+2025-04-24 10:44:42,962 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:44:42,962 - __main__ - INFO - Topics to monitor: enterprise AI, open ai, chatgpt, generative ai, perplexity, agi, claude, agentic ai
+2025-04-24 10:44:42,962 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:44:42,962 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:44:42,962 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: open ai
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: chatgpt
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: generative ai
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: perplexity
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: agi
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: claude
+2025-04-24 10:44:42,975 - src.main - INFO - Fetching news for topic: agentic ai
+2025-04-24 10:44:49,450 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:44:50,590 - src.main - INFO - Found 5 news items for claude
+2025-04-24 10:44:50,887 - src.main - INFO - Found 6 news items for generative ai
+2025-04-24 10:44:50,929 - src.main - INFO - Found 5 news items for agi
+2025-04-24 10:44:50,949 - src.main - INFO - Found 6 news items for open ai
+2025-04-24 10:44:52,817 - src.main - INFO - Found 8 news items for agentic ai
+2025-04-24 10:44:52,985 - src.main - INFO - Found 5 news items for chatgpt
+2025-04-24 10:44:55,503 - src.main - INFO - Found 10 news items for perplexity
+2025-04-24 10:44:55,505 - src.main - INFO - Sending newsletter with 10 most relevant news items
+2025-04-24 10:44:57,378 - src.main - INFO - Newsletter sent successfully
+2025-04-24 10:44:57,378 - __main__ - INFO - Newsletter test completed successfully!
+2025-04-24 10:46:02,905 - __main__ - INFO - Starting local newsletter test...
+2025-04-24 10:46:02,905 - __main__ - INFO - Time: 2025-04-24 10:46:02
+2025-04-24 10:46:02,905 - __main__ - INFO - Testing configuration...
+2025-04-24 10:46:02,905 - __main__ - INFO - ✓ Configuration loaded successfully
+2025-04-24 10:46:02,905 - __main__ - INFO - Topics to monitor: enterprise AI, open ai, chatgpt, generative ai, perplexity, agi, claude, agentic ai
+2025-04-24 10:46:02,905 - __main__ - INFO - Email will be sent to: consulting@hanova.mx
+2025-04-24 10:46:02,905 - __main__ - INFO - Running main newsletter function...
+2025-04-24 10:46:02,905 - src.main - INFO - Fetching news for topic: enterprise AI
+2025-04-24 10:46:02,917 - src.main - INFO - Fetching news for topic: open ai
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: chatgpt
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: generative ai
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: perplexity
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: agi
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: claude
+2025-04-24 10:46:02,918 - src.main - INFO - Fetching news for topic: agentic ai
+2025-04-24 10:46:09,231 - src.main - INFO - Found 5 news items for enterprise AI
+2025-04-24 10:46:09,945 - src.main - INFO - Found 6 news items for generative ai
+2025-04-24 10:46:10,040 - src.main - INFO - Found 5 news items for open ai
+2025-04-24 10:46:10,765 - src.main - INFO - Found 5 news items for perplexity
+2025-04-24 10:46:11,586 - src.main - INFO - Found 8 news items for agi
+2025-04-24 10:46:11,895 - src.main - INFO - Found 7 news items for agentic ai
+2025-04-24 10:46:13,540 - src.main - INFO - Found 5 news items for claude
+2025-04-24 10:46:20,072 - src.main - INFO - Found 6 news items for chatgpt
+2025-04-24 10:46:20,074 - src.main - INFO - Sending newsletter with 10 most relevant news items
+2025-04-24 10:46:21,952 - src.main - INFO - Newsletter sent successfully
+2025-04-24 10:46:21,952 - __main__ - INFO - Newsletter test completed successfully!

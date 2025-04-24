@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+This project follows a simple, maintainable structure for a Python-based AI newsletter system.
+
+## Core Files
+- Main entry point: [src/main.py](mdc:src/main.py)
+- Configuration: [src/config.py](mdc:src/config.py)
+- Type definitions: [src/types.py](mdc:src/types.py)
+
+## Deployment
+- Deployment script: [scripts/deploy.sh](mdc:scripts/deploy.sh)
+
+## Configuration Files
+- Environment variables template: [.env.example](mdc:.env.example)
+- Python dependencies: [requirements.txt](mdc:requirements.txt)
+
+## Directory Structure
+```
+.
+├── src/           # Source code
+│   ├── __init__.py
+│   ├── main.py    # Main application
+│   ├── config.py  # Configuration
+│   └── types.py   # Type definitions
+├── scripts/       # Deployment and utility scripts
+├── tests/         # Unit tests
+│   └── __init__.py
+├── .env           # Environment variables (not in repo)
+├── requirements.txt # Python dependencies
+└── README.md      # Project documentation
+```

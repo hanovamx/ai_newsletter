@@ -1,0 +1,44 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Coding Standards
+
+This project follows Python best practices and PEP 8 guidelines for clean, maintainable code.
+
+## General Guidelines
+- Follow PEP 8 style guide
+- Keep functions small and focused
+- Use descriptive variable names
+- Implement proper error handling
+- Add logging for debugging
+- Prefer simple functions over complex class hierarchies
+- Use type hints for better code clarity
+
+## Type Safety
+- Use Python type hints (typing module)
+- Define data classes or Pydantic models for structured data
+- Enable mypy type checking in development
+- Document parameter and return types
+
+## Error Handling
+- Use try/except blocks appropriately
+- Create custom exceptions when needed
+- Log errors with meaningful context
+- Provide graceful fallbacks for failures
+
+## Configuration
+- Use python-dotenv for environment variables
+- Never hardcode sensitive values
+- Use Pydantic for config validation
+- Keep configuration centralized
+
+## Best Practices
+- Keep files under 200 lines of code
+- Use async/await for I/O operations (aiohttp, asyncio)
+- Implement proper logging with Python's logging module
+- Keep the codebase very clean and organized
+- Use virtual environments (venv)
+- Document functions with docstrings
+- Write unit tests for core functionality

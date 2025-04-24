@@ -1,0 +1,58 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Deployment Guidelines
+
+This project is designed to run on an EC2 instance with automated daily updates.
+
+## EC2 Setup Requirements
+- Python 3.9 or higher
+- Git for repository updates
+- Python virtual environment
+- Proper environment variables configured
+- Cron job for daily execution
+
+## Deployment Process
+1. Clone repository to EC2 instance
+2. Create and activate virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Copy `.env.example` to `.env` and configure
+5. Run deployment script: [scripts/deploy.sh](mdc:scripts/deploy.sh)
+6. Verify cron job installation
+
+## Environment Variables
+Required variables in `.env`:
+```
+PERPLEXITY_API_KEY=  # Perplexity AI API key
+EMAIL_FROM=          # Sender email address
+EMAIL_TO=            # Comma-separated recipient emails
+EMAIL_PASSWORD=      # Email service password
+```
+
+## Logging
+- All operations are logged to `/var/log/newsletter.log`
+- Using Python's logging module with rotation
+- Errors are logged with timestamps and context
+- Log rotation handled by RotatingFileHandler
+
+## Maintenance
+- Daily git pull for latest code
+- Automatic dependency updates via pip
+- Error notifications via email
+- Regular log rotation
+- Virtual environment management
+
+## Monitoring
+- Use supervisor or systemd for process management
+- Monitor Python process health
+- Track memory usage
+- Monitor disk space for logs

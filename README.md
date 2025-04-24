@@ -76,6 +76,38 @@ Example cron job (runs every Monday at 8 AM):
 0 8 * * 1 cd /path/to/ai_newsletter && source venv/bin/activate && python src/main.py
 ```
 
+## Monitoring
+
+### Checking Logs
+```bash
+# View latest logs
+tail -f /home/ec2-user/ai_newsletter/logs/newsletter.log
+
+# View last 50 lines of logs
+tail -n 50 /home/ec2-user/ai_newsletter/logs/newsletter.log
+
+# Search logs for specific date
+grep "2024-04-24" /home/ec2-user/ai_newsletter/logs/newsletter.log
+```
+
+### Checking Next Scheduled Run
+```bash
+# View all scheduled tasks
+crontab -l
+
+# Check next Monday run time
+date -d "$(date -d 'next monday 8am')"
+
+# Check next Thursday run time
+date -d "$(date -d 'next thursday 8am')"
+```
+
+### Troubleshooting
+- Check if cron service is running: `sudo systemctl status crond`
+- Verify Python virtual environment: `source venv/bin/activate && python3 --version`
+- Test email configuration: `python3 -m src.main`
+- Check disk space: `df -h`
+
 ## License
 
 MIT License 

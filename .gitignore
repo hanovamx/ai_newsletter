@@ -1,2 +1,4 @@
 .env
 venv/.env
+newsletter_ai.pem
+*.pem
